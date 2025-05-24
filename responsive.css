@@ -1,0 +1,46 @@
+@media only screen and (max-width: 450px) {
+    nav {
+        position: relative;
+        text-align: center;
+    }
+    nav #nav-h {
+        margin: 0px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #18222c;
+        font-size: 30px;
+        display: block;
+        float: none;
+    }
+    nav .other {
+        display: block;
+        float: none;
+        margin: 0px;
+        border-bottom: 1px solid #22303f;
+    }
+    header img {
+        padding-top: 100px;
+    }
+    header h1 {
+        font-size: 50px;
+    }
+    #about #p .about-p {
+        width: 100%;
+    }
+    #contact form input {
+        width: 90%;
+    }
+    #contact form textarea {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+    nav #nav-h {
+        margin-left: 50px;
+    }
+    #contact form input {
+        width: 70%;
+    }
+    #contact form textarea {
+        width: 70%;
+    }
+}
